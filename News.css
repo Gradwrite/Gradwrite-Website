@@ -79,19 +79,19 @@ body {
 }
 
 .header {
-  padding-left: 33px;
-  padding-right: 33px;
+  padding-left: 3vh;
+  padding-right: 3vh;
   color: white;
   margin: auto;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
   font-size: min(4vh, 32px);
 }
 
 .news-content {
   color: white;
-  padding-left: 3vh;
-  padding-right: 3vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
   font-size: min(3vh, 22px);
   margin: 0;
 }
@@ -209,7 +209,7 @@ news-content a:visited {
 }
 
 .archive-news-content a {
-   color: --link-blue;
+   color: var(--link-blue);
 }
 
 .archive-news-content a:visited {
@@ -288,9 +288,9 @@ news-content a:visited {
     margin-left: 7vw;
   }
   .header {
-    font-size: 6vw;
+    font-size: 5vw;
   }
   .news-content {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 }
