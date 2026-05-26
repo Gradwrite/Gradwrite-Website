@@ -58,9 +58,21 @@
 
   <div id="main">
     <div class="tclass hide-scroll">
-      <h1>High School</h1>
-      <div onClick="showTournaments(0)" class="tournament">Gradwrite Spring 2026</div>
+
+      <!-- To add tournaments, copy the template below, and insert it directly below the proper header. Replace "Tournament" with the tournament name. Copy the <a> tag and paste it below the one already there such that there is 1 for each site. Then for each, replace the link "Tournaments/TX/Site" with a relative path to the html file for the proper tournament without the .html extension, and replace "Site" with the location of the site.
+           For each site, create a tournament page using a copy of the Template.html file in the Tournaments folder. Create a new folder in the Tournaments folder named "TX" where X is the tournament number, and place all of the new tourrnament files in it.
+           Using "showTournaments(0)" and "T0" leaves the tournament header open by default. After the tournament, to close it by default, replace the 0 with the tournament number. Only 1 header can be open by default, so if more need to be open by default at the same time, it's probably best to make a separate class for it.
+
+      <div onClick="showTournaments(0)" class="tournament">Tournament</div>
       <div id="T0" class="tournaments">
+        <a href="Tournaments/TX/Site"><div>Site</div></a>
+      </div>
+
+      -->
+
+      <h1>High School</h1>
+      <div onClick="showTournaments(5)" class="tournament">Gradwrite Spring 2026</div>
+      <div id="T5" class="tournaments">
         <a href="Tournaments/T5Vancouver"><div>Vancouver</div></a>
         <a href="Tournaments/T5Toronto"><div>Toronto</div></a>
         <a href="Tournaments/T5Ottawa"><div>Ottawa</div></a>
