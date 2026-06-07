@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <title>Gradwrite Trivia</title>
+  <link rel="icon" type="image/x-icon" href="../Gradwrite_Logo.png">
+  <link rel="stylesheet" href="Tournament.css">
+  <link rel="stylesheet" href="../Navigation.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    function expandNavBar() {
+      if (document.getElementById('drop-right-bar').style.display == 'block') {
+        document.getElementById('drop-right-bar').style.display = 'none';
+      } else {
+        document.getElementById('drop-right-bar').style.display = 'block';
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div class="navigation">
+    <ul id="left-bar">
+      <li><a href=".." class="logo"><img src="../Gradwrite_Logo.png" alt="Gradwrite Logo" height="38" width="38"></a></li>
+      <li><a href=".." class="links">Gradwrite Trivia</a></li>
+    </ul>
+    <ul id="right-bar">
+      <li><a href=".." class="option links">News</a></li>
+      <li><a href="../Tournaments" class="option links">Tournaments</a></li>
+      <li><a href="../Contact" class="option links">Contact</a></li>
+      <li><a href="../Resources" class="option links">Resources</a></li>
+      <li><a href="../Our_Team" class="option links">Our Team</a></li>
+      <li><a href="../FAQ" class="option links">FAQ</a></li>
+    </ul>
+    <div id="waffle" onClick="expandNavBar()"><p>≡</p></div>
+  </div>
+    <ul id="drop-right-bar">
+      <li><a href=".." class="option links">News</a></li>
+      <li><a href="../Tournaments" class="option links">Tournaments</a></li>
+      <li><a href="../Contact" class="option links">Contact</a></li>
+      <li><a href="../Resources" class="option links">Resources</a></li>
+      <li><a href="../Our_Team" class="option links">Our Team</a></li>
+      <li><a href="../FAQ" class="option links">FAQ</a></li>
+    </ul>
+
+  <!-- Replacement checklist:
+        - Tournament name
+        - Date
+        - Timing
+        - Location
+        - Registration form url
+        - Tournament field url
+        - Guaranteed registration deadline
+        - Prices for pricing scheme (varies by tournament, ensure you add extra points if necessary)
+        - Either add notes (should be minimal), or remove the Notes section
+        - Tournament name for standings
+  -->
+
+  <div id="main">
+    <h1 id="title">Tournament Name</h1>
+    <div><b>Date:</b> Date<br><br><b>Timing:</b> Start Time-End Time Timezone<br><br><b>Location:</b> Building (Address)<br><br><b>Registration Form:</b> <a href="" target="_blank">registration form</a>, <a href="" target="_blank">tournament field</a><br><br><b>Guaranteed Registration Deadline:</b> Date<br><br><b>Pricing scheme (per team):</b>
+      <ul>
+        <li>Base price: $XX</li>
+        <li>Buzzer discount: -$XX per buzzer set</li>
+        <li>Late cancellation fee: $XX</li>
+      </ul>
+      <b>Notes:</b>
+      <ul>
+        <li>note</li>
+      </ul>
+      <b>Standings:</b> <a href="" target="_blank">Tournament Name</a>
+    </div>
+  </div>
+
+  <div id="footer"><p id="contact">contact us at <a href="mailto:gradwritetrivia@gmail.com">gradwritetrivia@gmail.com</a></p></div>
+</body>
+
+
+</html>

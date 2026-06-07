@@ -26,6 +26,11 @@
         document.getElementById(packs).style.display = 'block';
       }
     }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const url = new URL(window.location.href);
+      showPacks(Number(url.searchParams.get('T')));
+    });
   </script>
 </head>
 
