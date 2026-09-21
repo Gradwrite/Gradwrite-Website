@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <title>Gradwrite Trivia</title>
+  <link rel="icon" type="image/x-icon" href="../Gradwrite_Logo.png">
+  <link rel="stylesheet" href="Tournament.css">
+  <link rel="stylesheet" href="../Navigation.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    function expandNavBar() {
+      if (document.getElementById('drop-right-bar').style.display == 'block') {
+        document.getElementById('drop-right-bar').style.display = 'none';
+      } else {
+        document.getElementById('drop-right-bar').style.display = 'block';
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div class="navigation">
+    <ul id="left-bar">
+      <li><a href=".." class="logo"><img src="../Gradwrite_Logo.png" alt="Gradwrite Logo" height="38" width="38"></a></li>
+      <li><a href=".." class="links">Gradwrite Trivia</a></li>
+    </ul>
+    <ul id="right-bar">
+      <li><a href=".." class="option links">News</a></li>
+      <li><a href="../Tournaments" class="option links">Tournaments</a></li>
+      <li><a href="../Contact" class="option links">Contact</a></li>
+      <li><a href="../Resources" class="option links">Resources</a></li>
+      <li><a href="../Our_Team" class="option links">Our Team</a></li>
+      <li><a href="../FAQ" class="option links">FAQ</a></li>
+    </ul>
+    <div id="waffle" onClick="expandNavBar()"><p>≡</p></div>
+  </div>
+    <ul id="drop-right-bar">
+      <li><a href=".." class="option links">News</a></li>
+      <li><a href="../Tournaments" class="option links">Tournaments</a></li>
+      <li><a href="../Contact" class="option links">Contact</a></li>
+      <li><a href="../Resources" class="option links">Resources</a></li>
+      <li><a href="../Our_Team" class="option links">Our Team</a></li>
+      <li><a href="../FAQ" class="option links">FAQ</a></li>
+    </ul>
+
+  <div id="main">
+    <h1 id="title">Gradwrite Fall 2026 Vancouver</h1>
+    <div>Tournament information coming soon!    </div>
+  </div>
+
+  <div id="footer"><p id="contact">contact us at <a href="mailto:gradwritetrivia@gmail.com">gradwritetrivia@gmail.com</a></p></div>
+</body>
+
+
+</html>
